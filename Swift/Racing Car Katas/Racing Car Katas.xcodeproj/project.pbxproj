@@ -16,6 +16,7 @@
 		5463725D1C0CFA7700655B62 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5463725C1C0CFA7700655B62 /* Alarm.swift */; };
 		5463725F1C0CFCCF00655B62 /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5463725E1C0CFCCF00655B62 /* Sensor.swift */; };
 		546372631C0CFD0900655B62 /* AlarmTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546372621C0CFD0900655B62 /* AlarmTest.swift */; };
+		546372661C0CFF6B00655B62 /* UnicodeFileToHtmlTextConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546372651C0CFF6B00655B62 /* UnicodeFileToHtmlTextConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		5463725C1C0CFA7700655B62 /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 		5463725E1C0CFCCF00655B62 /* Sensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
 		546372621C0CFD0900655B62 /* AlarmTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTest.swift; sourceTree = "<group>"; };
+		546372651C0CFF6B00655B62 /* UnicodeFileToHtmlTextConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicodeFileToHtmlTextConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		546372381C0CF81700655B62 /* Racing Car Katas */ = {
 			isa = PBXGroup;
 			children = (
+				546372641C0CFF5C00655B62 /* UnicodeFileToHtmlTextConverter */,
 				5463725B1C0CFA6C00655B62 /* TirePressureMonitoringSystem */,
 				546372391C0CF81700655B62 /* AppDelegate.swift */,
 				546372401C0CF81700655B62 /* Assets.xcassets */,
@@ -111,6 +114,14 @@
 				5463725E1C0CFCCF00655B62 /* Sensor.swift */,
 			);
 			path = TirePressureMonitoringSystem;
+			sourceTree = "<group>";
+		};
+		546372641C0CFF5C00655B62 /* UnicodeFileToHtmlTextConverter */ = {
+			isa = PBXGroup;
+			children = (
+				546372651C0CFF6B00655B62 /* UnicodeFileToHtmlTextConverter.swift */,
+			);
+			path = UnicodeFileToHtmlTextConverter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +228,7 @@
 				5463725F1C0CFCCF00655B62 /* Sensor.swift in Sources */,
 				5463723A1C0CF81700655B62 /* AppDelegate.swift in Sources */,
 				5463725D1C0CFA7700655B62 /* Alarm.swift in Sources */,
+				546372661C0CFF6B00655B62 /* UnicodeFileToHtmlTextConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
