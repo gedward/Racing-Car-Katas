@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5463723A1C0CF81700655B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546372391C0CF81700655B62 /* AppDelegate.swift */; };
+		5463723C1C0CF81700655B62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5463723B1C0CF81700655B62 /* ViewController.swift */; };
+		5463723F1C0CF81700655B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5463723D1C0CF81700655B62 /* Main.storyboard */; };
+		546372411C0CF81700655B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546372401C0CF81700655B62 /* Assets.xcassets */; };
+		546372441C0CF81700655B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546372421C0CF81700655B62 /* LaunchScreen.storyboard */; };
+		5463724F1C0CF81700655B62 /* Racing_Car_KatasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5463724E1C0CF81700655B62 /* Racing_Car_KatasTests.swift */; };
+		5463725D1C0CFA7700655B62 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5463725C1C0CFA7700655B62 /* Alarm.swift */; };
+		5463725F1C0CFCCF00655B62 /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5463725E1C0CFCCF00655B62 /* Sensor.swift */; };
+		546372631C0CFD0900655B62 /* AlarmTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546372621C0CFD0900655B62 /* AlarmTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5463724B1C0CF81700655B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5463722E1C0CF81600655B62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 546372351C0CF81700655B62;
+			remoteInfo = "Racing Car Katas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		546372361C0CF81700655B62 /* Racing Car Katas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Racing Car Katas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		546372391C0CF81700655B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5463723B1C0CF81700655B62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5463723E1C0CF81700655B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		546372401C0CF81700655B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		546372431C0CF81700655B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		546372451C0CF81700655B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5463724A1C0CF81700655B62 /* Racing Car KatasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Racing Car KatasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5463724E1C0CF81700655B62 /* Racing_Car_KatasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racing_Car_KatasTests.swift; sourceTree = "<group>"; };
+		546372501C0CF81700655B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5463725C1C0CFA7700655B62 /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		5463725E1C0CFCCF00655B62 /* Sensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
+		546372621C0CFD0900655B62 /* AlarmTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		546372331C0CF81700655B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546372471C0CF81700655B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5463722D1C0CF81600655B62 = {
+			isa = PBXGroup;
+			children = (
+				546372381C0CF81700655B62 /* Racing Car Katas */,
+				5463724D1C0CF81700655B62 /* Racing Car KatasTests */,
+				546372371C0CF81700655B62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		546372371C0CF81700655B62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546372361C0CF81700655B62 /* Racing Car Katas.app */,
+				5463724A1C0CF81700655B62 /* Racing Car KatasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		546372381C0CF81700655B62 /* Racing Car Katas */ = {
+			isa = PBXGroup;
+			children = (
+				5463725B1C0CFA6C00655B62 /* TirePressureMonitoringSystem */,
+				546372391C0CF81700655B62 /* AppDelegate.swift */,
+				546372401C0CF81700655B62 /* Assets.xcassets */,
+				546372451C0CF81700655B62 /* Info.plist */,
+				546372421C0CF81700655B62 /* LaunchScreen.storyboard */,
+				5463723D1C0CF81700655B62 /* Main.storyboard */,
+				5463723B1C0CF81700655B62 /* ViewController.swift */,
+			);
+			path = "Racing Car Katas";
+			sourceTree = "<group>";
+		};
+		5463724D1C0CF81700655B62 /* Racing Car KatasTests */ = {
+			isa = PBXGroup;
+			children = (
+				546372621C0CFD0900655B62 /* AlarmTest.swift */,
+				5463724E1C0CF81700655B62 /* Racing_Car_KatasTests.swift */,
+				546372501C0CF81700655B62 /* Info.plist */,
+			);
+			path = "Racing Car KatasTests";
+			sourceTree = "<group>";
+		};
+		5463725B1C0CFA6C00655B62 /* TirePressureMonitoringSystem */ = {
+			isa = PBXGroup;
+			children = (
+				5463725C1C0CFA7700655B62 /* Alarm.swift */,
+				5463725E1C0CFCCF00655B62 /* Sensor.swift */,
+			);
+			path = TirePressureMonitoringSystem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		546372351C0CF81700655B62 /* Racing Car Katas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546372531C0CF81700655B62 /* Build configuration list for PBXNativeTarget "Racing Car Katas" */;
+			buildPhases = (
+				546372321C0CF81700655B62 /* Sources */,
+				546372331C0CF81700655B62 /* Frameworks */,
+				546372341C0CF81700655B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Racing Car Katas";
+			productName = "Racing Car Katas";
+			productReference = 546372361C0CF81700655B62 /* Racing Car Katas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		546372491C0CF81700655B62 /* Racing Car KatasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546372561C0CF81700655B62 /* Build configuration list for PBXNativeTarget "Racing Car KatasTests" */;
+			buildPhases = (
+				546372461C0CF81700655B62 /* Sources */,
+				546372471C0CF81700655B62 /* Frameworks */,
+				546372481C0CF81700655B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5463724C1C0CF81700655B62 /* PBXTargetDependency */,
+			);
+			name = "Racing Car KatasTests";
+			productName = "Racing Car KatasTests";
+			productReference = 5463724A1C0CF81700655B62 /* Racing Car KatasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5463722E1C0CF81600655B62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					546372351C0CF81700655B62 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					546372491C0CF81700655B62 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 546372351C0CF81700655B62;
+					};
+				};
+			};
+			buildConfigurationList = 546372311C0CF81600655B62 /* Build configuration list for PBXProject "Racing Car Katas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5463722D1C0CF81600655B62;
+			productRefGroup = 546372371C0CF81700655B62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				546372351C0CF81700655B62 /* Racing Car Katas */,
+				546372491C0CF81700655B62 /* Racing Car KatasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		546372341C0CF81700655B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546372441C0CF81700655B62 /* LaunchScreen.storyboard in Resources */,
+				546372411C0CF81700655B62 /* Assets.xcassets in Resources */,
+				5463723F1C0CF81700655B62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546372481C0CF81700655B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		546372321C0CF81700655B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5463723C1C0CF81700655B62 /* ViewController.swift in Sources */,
+				5463725F1C0CFCCF00655B62 /* Sensor.swift in Sources */,
+				5463723A1C0CF81700655B62 /* AppDelegate.swift in Sources */,
+				5463725D1C0CFA7700655B62 /* Alarm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546372461C0CF81700655B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5463724F1C0CF81700655B62 /* Racing_Car_KatasTests.swift in Sources */,
+				546372631C0CFD0900655B62 /* AlarmTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5463724C1C0CF81700655B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 546372351C0CF81700655B62 /* Racing Car Katas */;
+			targetProxy = 5463724B1C0CF81700655B62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5463723D1C0CF81700655B62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5463723E1C0CF81700655B62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		546372421C0CF81700655B62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546372431C0CF81700655B62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		546372511C0CF81700655B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		546372521C0CF81700655B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		546372541C0CF81700655B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Racing Car Katas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Racing-Car-Katas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		546372551C0CF81700655B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Racing Car Katas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Racing-Car-Katas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		546372571C0CF81700655B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Racing Car KatasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Racing-Car-KatasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Racing Car Katas.app/Racing Car Katas";
+			};
+			name = Debug;
+		};
+		546372581C0CF81700655B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Racing Car KatasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Racing-Car-KatasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Racing Car Katas.app/Racing Car Katas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		546372311C0CF81600655B62 /* Build configuration list for PBXProject "Racing Car Katas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546372511C0CF81700655B62 /* Debug */,
+				546372521C0CF81700655B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546372531C0CF81700655B62 /* Build configuration list for PBXNativeTarget "Racing Car Katas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546372541C0CF81700655B62 /* Debug */,
+				546372551C0CF81700655B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		546372561C0CF81700655B62 /* Build configuration list for PBXNativeTarget "Racing Car KatasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546372571C0CF81700655B62 /* Debug */,
+				546372581C0CF81700655B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5463722E1C0CF81600655B62 /* Project object */;
+}
